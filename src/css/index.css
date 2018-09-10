@@ -1,0 +1,83 @@
+@import url("https://necolas.github.io/normalize.css/8.0.0/normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400");
+
+html {
+    box-sizing: border-box;
+}
+body {
+    background: #e96443; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#594e95,#00043f); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #594e95, #00043f);
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    color: #fff;
+    margin-top: 20px;
+}
+header h1 {
+    font-weight: 100;
+    font-size: 3em;
+}
+
+
+.contenido-principal {
+    background-color: #fff;
+    padding: 20px 15px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contenido h2 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.contenido .gastos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px #d6d6d6 solid;
+}
+
+.contenido .gastos .gasto {
+    background-color: #594e95;
+    color: #fff;
+    padding: 8px;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-weight: bold;
+}
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
