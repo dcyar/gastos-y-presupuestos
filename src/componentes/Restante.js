@@ -7,7 +7,9 @@ class Restante extends Component {
         const { presupuesto, restante } = this.props;
         return (
             <div className={ revisarPresupuesto(presupuesto, restante) }>
-                Restante $ { restante }
+                { restante ? <span>Restante $ { restante }</span>
+                    : <span>Restante $ 0</span>
+                }
             </div>
         );
     }

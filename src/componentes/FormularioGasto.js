@@ -50,7 +50,7 @@ class FormularioGasto extends Component {
                     <input
                         className="button-primary u-full-width"
                         type="submit"
-                        value="Agregar"
+                        value="Agregar Presupuesto"
                     />
                 </form>
             </div>
